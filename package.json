@@ -15,7 +15,7 @@
     "lint": "xo src"
   },
   "xo": {
-    "spaces": true,
+    "space": true,
     "prettier": true,
     "globals": ["test", "jest", "expect"]
   }
