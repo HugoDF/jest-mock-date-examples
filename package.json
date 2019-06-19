@@ -1,0 +1,22 @@
+{
+  "name": "jest-mock-date-examples",
+  "version": "1.0.0",
+  "description": "Different approaches to mocking the Date in Jest tests",
+  "author": "Hugo Di Francesco",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0",
+    "xo": "^0.24.0"
+  },
+  "scripts": {
+    "test": "jest src",
+    "lint": "xo src"
+  },
+  "xo": {
+    "spaces": true,
+    "prettier": true,
+    "globals": ["test"]
+  }
+}
