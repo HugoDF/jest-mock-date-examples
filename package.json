@@ -17,6 +17,6 @@
   "xo": {
     "spaces": true,
     "prettier": true,
-    "globals": ["test"]
+    "globals": ["test", "jest", "expect"]
   }
 }
