@@ -13,3 +13,10 @@ For each of those approaches in the application code, this repo has examples for
 - `Date.now()` + spy: see [./src/spy-date-now.test.js](./src/spy-date-now.test.js)
 - `new Date()` + full mock/stub: see [./src/stub-date-class.test.js](./src/stub-date-class.test.js)
 - `new Date()` + spy: see [./src/spy-new-date.test.js](./src/spy-new-date.test.js)
+
+## Running the tests
+
+Packages were installed with yarn, although npm should work just as well.
+
+- Run `yarn`
+- Run `yarn test`
