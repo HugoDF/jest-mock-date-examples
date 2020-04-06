@@ -8,9 +8,9 @@ test('It should create new date', () => {
   const currentDate = new Date('2019-05-14T11:01:58.135Z');
   realDate = Date;
   global.Date = class extends Date {
-    constructor(date) {
-      if (date) {
-        return super(date);
+    constructor(...args) {
+      if (args.length > 0) {
+        return super(...args);
       }
 
       return currentDate;
