@@ -8,7 +8,7 @@
   "dependencies": {
     "jest": "^24.8.0",
     "jest-cli": "^24.8.0",
-    "xo": "^0.24.0"
+    "xo": "^0.28.3"
   },
   "scripts": {
     "test": "jest src",
