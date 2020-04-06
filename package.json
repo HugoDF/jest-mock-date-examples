@@ -7,7 +7,6 @@
   "private": true,
   "dependencies": {
     "jest": "^24.8.0",
-    "jest-cli": "^24.8.0",
     "xo": "^0.28.3"
   },
   "scripts": {
@@ -17,6 +16,10 @@
   "xo": {
     "space": true,
     "prettier": true,
-    "globals": ["test", "jest", "expect"]
+    "globals": [
+      "test",
+      "jest",
+      "expect"
+    ]
   }
 }
