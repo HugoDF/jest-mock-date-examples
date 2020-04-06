@@ -10,6 +10,7 @@ test('It should create new date', () => {
   global.Date = class extends Date {
     constructor(...args) {
       if (args.length > 0) {
+        // eslint-disable-next-line constructor-super
         return super(...args);
       }
 
