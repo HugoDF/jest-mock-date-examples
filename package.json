@@ -7,7 +7,7 @@
   "private": true,
   "dependencies": {
     "jest": "^26.0.1",
-    "xo": "^0.30.0"
+    "xo": "^0.32.0"
   },
   "scripts": {
     "test": "jest src",
