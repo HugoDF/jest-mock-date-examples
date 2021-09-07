@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "jest": "^27.0.6",
+    "jest": "^27.1.0",
     "xo": "^0.39.1"
   },
   "scripts": {
